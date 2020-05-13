@@ -4,22 +4,25 @@
 * {
   margin: 0;
   padding: 0;
+  background-size: 1400px;
 }
 
 /* TYPE */
 h1 {
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
 p {
+  color: white;
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-image: url("images/bg-desktop.svg");
-}
-
+/* Main Area */
 .main-area {
+  background-color: #674baf;
+  background-image: url("images/bg-desktop.svg");
+  background-repeat: no-repeat;
   padding: 60px 60px 60px 60px;
 }
 
@@ -27,32 +30,36 @@ body {
   margin: 60px auto;
   display: flex;
 }
-
+/* Image */
 .mockups {
   display: inline;
 }
-
+/* Right Side Information */
 .information {
- display: inline;
+  display: inline;
   margin-top: 45px;
   margin-left: 40px;
-  
 }
 
-.information h1{
- line-height: 2;
- margin-bottom: 10px;
- width: 400px;
+.information h1 {
+  line-height: 2;
+  margin-bottom: 10px;
+  width: 400px;
 }
 
 .information p {
- width: 460px;
- line-height: 2;
+  width: 460px;
+  line-height: 2;
 }
 
+.share-icons {
+  height: 2em;
+  width: 2em;
+}
 
-
-
+.facebook-logo {
+}
+/* Button */
 .myButton {
   box-shadow: 4px 6px 18px -7px #000000;
   background-color: #ffffff;
@@ -72,7 +79,7 @@ body {
   position: relative;
   top: 1px;
 }
-
+/* Attributions */
 .attribution {
   font-size: 11px;
   text-align: center;
